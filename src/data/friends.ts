@@ -14,7 +14,7 @@ export interface FriendItem {
 export const friendsData: FriendItem[] = [
 	{
 		id: 1,
-		title: "AbleTomato",
+		title: "AbelTomato",
 		imgurl: "/images/FriendImages//Abletomato.jpg",
 		desc: "厦门大学的佬，翔安校区的朋友请尽情骚扰此人。",
 		siteurl: "https://abeltomato.github.io/",
