@@ -1,90 +1,95 @@
 ---
 import AnimeCard from "./AnimeCard.astro";
+// 引入你的数据类型
+import type { MediaItem } from "../../../data/anime";
 
 interface StatusInfo {
-	text: string;
-	class: string;
-	icon: string;
+    text: string;
+    class: string;
+    icon: string;
 }
 
-interface AnimeItem {
-	title: string;
-	cover: string;
-	link: string;
-	status: string;
-	rating: number;
-	progress: number;
-	totalEpisodes: number;
-	description: string;
-	year: string;
-	studio: string;
-	genre: string[];
-}
-
+// 这里的 Props 才是 Grid 真正该接收的数组列表！
 interface Props {
-	visibleAnimeList: AnimeItem[];
-	hiddenAnimeList: AnimeItem[];
-	statusMap: Record<string, StatusInfo>;
-	yearLabel: string;
-	studioLabel: string;
+    visibleAnimeList: MediaItem[];
+    hiddenAnimeList: MediaItem[];
+    statusMap: Record<string, StatusInfo>;
+    yearLabel: string;
+    studioLabel: string;
 }
 
-const { visibleAnimeList, hiddenAnimeList, statusMap, yearLabel, studioLabel } =
-	Astro.props;
+const { visibleAnimeList, hiddenAnimeList, statusMap, yearLabel, studioLabel } = Astro.props;
 
 const hasHiddenItems = hiddenAnimeList.length > 0;
 ---
 
 <div
-	id="anime-list-container"
-	class="anime-grid-container grid gap-4 md:gap-6 opacity-0 transition-opacity duration-300"
+    id="anime-list-container"
+    class="anime-grid-container grid gap-4 md:gap-6 opacity-0 transition-opacity duration-300"
 >
-	{
-		visibleAnimeList.map((anime) => {
-			const statusInfo = statusMap[anime.status] || {
-				text: anime.status,
-				class: "btn-regular",
-				icon: "?",
-			};
-			return (
-				<AnimeCard
-					anime={anime}
-					statusInfo={statusInfo}
-					yearLabel={yearLabel}
-					studioLabel={studioLabel}
-				/>
-			);
-		})
-	}
+    {
+        visibleAnimeList.map((data) => {
+            // 先尝试从原系统的 map 里取
+            let statusInfo = statusMap[data.status];
+            
+            // 【核心拦截】如果我们发现状态是“弃坑 (abandoned)”或原版的 dropped
+            if (data.status === "abandoned" || data.status === "dropped") {
+                statusInfo = {
+                    text: "弃坑", // 标签上显示的文字
+                    // 用冷酷的灰黑色背景，代表心死的感觉~
+                    class: "bg-neutral-600/80 text-white dark:bg-neutral-800/80", 
+                    // 给你配一个心碎的 emoji，或者你可以换成 ✖️、🗑️ 
+                    icon: "💔", 
+                };
+            } 
+            // 如果既不是系统认识的，也不是弃坑，才显示问号兜底
+            else if (!statusInfo) {
+                statusInfo = {
+                    text: data.status,
+                    class: "btn-regular",
+                    icon: "?",
+                };
+            }
+            return (
+                /* 注意这里！把 data 传给卡片的 item 属性 */
+                <AnimeCard
+                    item={data}
+                    statusInfo={statusInfo}
+                    yearLabel={yearLabel}
+                    studioLabel={studioLabel}
+                />
+            );
+        })
+    }
 </div>
 
 <template id="anime-lazy-store">
-	{
-		hiddenAnimeList.map((anime) => {
-			const statusInfo = statusMap[anime.status] || {
-				text: anime.status,
-				class: "btn-regular",
-				icon: "?",
-			};
-			return (
-				<AnimeCard
-					anime={anime}
-					statusInfo={statusInfo}
-					yearLabel={yearLabel}
-					studioLabel={studioLabel}
-				/>
-			);
-		})
-	}
+    {
+        hiddenAnimeList.map((data) => {
+            const statusInfo = statusMap[data.status] || {
+                text: data.status,
+                class: "btn-regular",
+                icon: "?",
+            };
+            return (
+                <AnimeCard
+                    item={data}
+                    statusInfo={statusInfo}
+                    yearLabel={yearLabel}
+                    studioLabel={studioLabel}
+                />
+            );
+        })
+    }
 </template>
 
 {
-	hasHiddenItems && (
-		<div
-			id="infinite-scroll-sentinel"
-			class="w-full h-20 flex items-center justify-center mt-8"
-		>
-			<div class="anime-loading-spinner w-8 h-8 border-4 border-[var(--primary)] border-t-transparent rounded-full animate-spin" />
-		</div>
-	)
+    hasHiddenItems && (
+        <div
+            id="infinite-scroll-sentinel"
+            class="w-full h-20 flex items-center justify-center mt-8"
+        >
+            <div class="anime-loading-spinner w-8 h-8 border-4 border-[var(--primary)] border-t-transparent rounded-full animate-spin" />
+        </div>
+    )
 }

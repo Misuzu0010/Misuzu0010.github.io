@@ -1,6 +1,151 @@
 // 文件路径：src/data/myPlaylist.ts
 
 export const mySecretPlaylist = [
+    //cloud
+    {
+        name: "ささやかな息吹",
+        artist: "メガミノウタゲ / kyiku / Flare Rune",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2688785306",
+        cover: "https://p1.music.126.net/QLHPWHUy31LiuPTjgGxGWA==/109951170653791121.jpg"
+    },
+    {
+        name: "Holiday∞Holiday",
+        artist: "スリーズブーケ",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2056955316",
+        cover: "https://p2.music.126.net/Ncm-XrSDSnH-V58EF434Cg==/109951169913749699.jpg"
+    },
+    {
+        name: "pastel",
+        artist: "ClariS",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=33469881",
+        cover: "https://p1.music.126.net/U8tHlDRv8e4s8ZV4obZp3w==/109951167953934443.jpg"
+    },
+    {
+        name: "Endless Tears",
+        artist: "CLIFF EDGE / 中村舞子",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=22722555",
+        cover: "https://p1.music.126.net/g7UXDAgtxpJ7Eny0LPl-Ew==/865315651083767.jpg"
+    },
+    {
+        name: "雪は何色",
+        artist: "Kotoha",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2075565121",
+        cover: "https://p1.music.126.net/EzxY_TMOqJfBxh-8VXwnpQ==/109951168884002622.jpg"
+    },
+    {
+        name: "永夜のパレード",
+        artist: "JUMA / ケーキ姫☆優海",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=692193",
+        cover: "https://p1.music.126.net/_0EPPAiKLQqddTZ5eKSqBw==/109951163136011717.jpg"
+    },
+    {
+        name: "気まぐれメルシィ",
+        artist: "P*Light / 初音ミク",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=417953304",
+        cover: "https://p1.music.126.net/kV-UEM6pcYQThLwGH9w2aQ==/3426078240771822.jpg"
+    },
+    {
+        name: "恋ノ蟲",
+        artist: "花たん",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=28524863",
+        cover: "https://p1.music.126.net/owc3J48knwD1JYStOkTUiw==/109951165153220107.jpg"
+    },
+    {
+        name: "恋人を射ち堕とした日",
+        artist: "Sound Horizon",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=22782085",
+        cover: "https://p1.music.126.net/NsZHpVro3tsqmP_bX-3hGg==/109951172845980413.jpg"
+    },
+    {
+        name: "ray (超かぐや姫！ Version)",
+        artist: "かぐや(cv.夏吉ゆうこ) / 早見沙織",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=3340114786",
+        cover: "https://p1.music.126.net/rwWOrSz65eAdnQsHy9Vghw==/109951172602675059.jpg"
+    },
+    {
+        name: "HesitationSnow",
+        artist: "fripSide",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=622956",
+        cover: "https://p1.music.126.net/ej6BuWGUNLFVFuF2_ZFrQQ==/3442570908895515.jpg"
+    },
+    {
+        name: "月夜に舞う恋の花",
+        artist: "ういにゃす",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=434981395",
+        cover: "https://p1.music.126.net/880m85ofs5T6klGLVDgeTw==/18700493765853411.jpg"
+    },
+    {
+        name: "茉子の日常",
+        artist: "高森奈津美",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=411500345",
+        cover: "https://p1.music.126.net/drkUOJtQbCFWURDTIuIYEg==/1378787589157129.jpg"
+    },
+    {
+        name: "closest love",
+        artist: "fripSide",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=725429",
+        cover: "https://p1.music.126.net/SsF3nMV9aQ_W8ji1TnGKdg==/637716744121805.jpg"
+    },
+    {
+        name: "星降る海",
+        artist: "Aqu3ra / 早見沙織",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=3340112782",
+        cover: "https://p1.music.126.net/rwWOrSz65eAdnQsHy9Vghw==/109951172602675059.jpg"
+    },
+    {
+        name: "Shadows ～影色妖精絵本～",
+        artist: "葉月ゆら",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=437802369",
+        cover: "https://p1.music.126.net/wNiA4RZQY68E9v4wMMCCdA==/18760966905573854.jpg"
+    },
+    {
+        name: "童遊",
+        artist: "めらみぽっぷ",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=28732503",
+        cover: "https://p1.music.126.net/uYw_ybM-vG2cdUq-iZzF3g==/109951166032217447.jpg"
+    },
+    {
+        name: "コトダマ紬ぐ未来",
+        artist: "山崎もえ",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=427419615",
+        cover: "https://p1.music.126.net/yWCEGRrdrNlZMHZJ5ZFrBg==/1366692968105602.jpg"
+    },
+    {
+        name: "平行線",
+        artist: "さユり",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=462688898",
+        cover: "https://p1.music.126.net/nCdRB3DsePtGaR2YCo_ISg==/19072128695408419.jpg"
+    },
+    {
+        name: "ドーナドーナのうた",
+        artist: "月乃",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=1499313762",
+        cover: "https://p1.music.126.net/U1FL0detk4kXvnclCkaJfg==/109951172661624241.jpg"
+    },
+    {
+        name: "生きるよすが",
+        artist: "月詠み",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=1919134611",
+        cover: "https://p1.music.126.net/Md9rbT62Zfm1RqLXdx6wNg==/109951170539410168.jpg"
+    },
+    {
+        name: "愛言葉V",
+        artist: "DECO*27 / 初音ミク",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=3345623512",
+        cover: "https://p1.music.126.net/pyTnoT6MlSNZ-t_F8lxrFA==/109951172681231853.jpg"
+    },
+    {
+        name: "愛言葉IV",
+        artist: "DECO*27 / 初音ミク",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=1951952113",
+        cover: "https://p1.music.126.net/1tBOiEJxwsz6sCFZmeCOPA==/109951167493481738.jpg"
+    },
+    {
+        name: "DESIRE",
+        artist: "美郷あき",
+        url: "https://meting.mysqil.com/api?server=netease&type=url&id=28568035",
+        cover: "https://p1.music.126.net/HO5XUigZgxw8ep5QgLs7-Q==/109951172184942803.jpg"
+    },
     {
         name: "天球(そら)のMúsica",
         artist: "Ave Mujica",
@@ -311,271 +456,271 @@ export const mySecretPlaylist = [
         name: "キラ☆キラ",
         artist: "第二文芸部バンド",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=22689992",
-        cover: "https://p2.music.126.net/A7L93a0wlwbsLIY0xBx0lg==/616826023203552.jpg"
+        cover: "https://p1.music.126.net/A7L93a0wlwbsLIY0xBx0lg==/616826023203552.jpg"
     },
     {
         name: "Blue sky",
         artist: "種崎敦美",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=416011206",
-        cover: "https://p2.music.126.net/4DJCTxBHNrMHGJNBLjtz1A==/3416182630008969.jpg"
+        cover: "https://p1.music.126.net/4DJCTxBHNrMHGJNBLjtz1A==/3416182630008969.jpg"
     },
     {
         name: "比翼のさく ら",
         artist: "逢瀬アキラ",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=1490116935",
-        cover: "https://p2.music.126.net/h-sX7Ur-13mHUkd4jWi_2Q==/109951165416901836.jpg"
+        cover: "https://p1.music.126.net/h-sX7Ur-13mHUkd4jWi_2Q==/109951165416901836.jpg"
     },
     {
         name: "メチャ恋らんまん☆",
         artist: "榊原ゆい",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=648809",
-        cover: "https://p2.music.126.net/_JOs-eZb78Iq6XoaVix2WA==/776255209221777.jpg"
+        cover: "https://p1.music.126.net/_JOs-eZb78Iq6XoaVix2WA==/776255209221777.jpg"
     },
     {
         name: "キミのとなり",
         artist: "Famishin / 籐子",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=473403188",
-        cover: "https://p2.music.126.net/UtBzZyeeHb84vRQXWoH48A==/19019352137357551.jpg"
+        cover: "https://p1.music.126.net/UtBzZyeeHb84vRQXWoH48A==/19019352137357551.jpg"
     },
     {
         name: "夢見る歯車",
         artist: "PETAKO",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=454711462",
-        cover: "https://p2.music.126.net/AYv_KKTpuzBbvVwZ1k1rJg==/18494885092545053.jpg"
+        cover: "https://p1.music.126.net/AYv_KKTpuzBbvVwZ1k1rJg==/18494885092545053.jpg"
     },
     {
         name: "The Call",
         artist: "Yukky",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=496654",
-        cover: "https://p2.music.126.net/CrfEJFfAw0z67SXecO528A==/908196604543160.jpg"
+        cover: "https://p1.music.126.net/CrfEJFfAw0z67SXecO528A==/908196604543160.jpg"
     },
     {
         name: "Thousands of pages",
         artist: "えびカレーラーメン / かしこ。",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=1956153862",
-        cover: "https://p2.music.126.net/KS6WcY3oj6oJt8rUkDYdCg==/109951167553665959.jpg"
+        cover: "https://p1.music.126.net/KS6WcY3oj6oJt8rUkDYdCg==/109951167553665959.jpg"
     },
     {
         name: "ボク恋",
         artist: "Duca",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=28048656",
-        cover: "https://p2.music.126.net/kXO216GqjQPaCgP-MkD3pA==/109951163208527334.jpg"
+        cover: "https://p1.music.126.net/kXO216GqjQPaCgP-MkD3pA==/109951163208527334.jpg"
     },
     {
         name: "終わらない物語",
         artist: "鈴湯",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=1367158053",
-        cover: "https://p2.music.126.net/yeBfL0I_dOkLqW9uBfaFVg==/109951164093978087.jpg"
+        cover: "https://p1.music.126.net/yeBfL0I_dOkLqW9uBfaFVg==/109951164093978087.jpg"
     },
     {
         name: "Re:Call",
         artist: "霜月はるか",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=29129677",
-        cover: "https://p2.music.126.net/A8cekRECAnzfAG1TbKWoew==/109951171002613452.jpg"
+        cover: "https://p1.music.126.net/A8cekRECAnzfAG1TbKWoew==/109951171002613452.jpg"
     },
     {
         name: "恋文",
         artist: "やなぎなぎ",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=26131698",
-        cover: "https://p2.music.126.net/BqqlG5FRpF2XHOksycILOA==/109951170650398979.jpg"
+        cover: "https://p1.music.126.net/BqqlG5FRpF2XHOksycILOA==/109951170650398979.jpg"
     },
     {
         name: "Sea, You & Me",
         artist: "麻枝准",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=1311345853",
-        cover: "https://p2.music.126.net/MVWKZCUCNQocuhMRBpL-Qw==/109951169976613728.jpg"
+        cover: "https://p1.music.126.net/MVWKZCUCNQocuhMRBpL-Qw==/109951169976613728.jpg"
     },
     {
         name: "nostalgia",
         artist: "Metomate",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=557583085",
-        cover: "https://p2.music.126.net/drnK_YayHfyFhXn0K8n5OQ==/109951163286913154.jpg"
+        cover: "https://p1.music.126.net/drnK_YayHfyFhXn0K8n5OQ==/109951163286913154.jpg"
     },
     {
         name: "虚無の先で愛を見つける-Piano ver",
         artist: "おはる",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077749631",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "幾望までの梯子",
         artist: "GORO",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744373",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "幾望―既望―希望-Piano ver",
         artist: "おはる",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744379",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "羽飾り-Piano ver",
         artist: "おはる",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077749632",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "刻の繭の外へ.",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077743624",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "展覧会の絵",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077743623",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "夜の絵画",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744368",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "散策夜雲",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077743620",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "吹き上がる音と言葉",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077743619",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "向日葵の嵐が過ぎ去り",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744366",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "夏の夜の展覧会は",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077743617",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "天球の大曲線",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077743616",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "黒曜石の天球図",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744365",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "風景はせはしく明滅し",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077743614",
-        cover: "https://p2.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
+        cover: "https://p1.music.126.net/77V-Bc4EoboXGOZZ8TxDBQ==/109951168879037291.jpg"
     },
     {
         name: "Mon Panache!",
         artist: "水谷瑠奈",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744393",
-        cover: "https://p2.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
+        cover: "https://p1.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
     },
     {
         name: "虚無の先で愛を見つける",
         artist: "はな",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744392",
-        cover: "https://p2.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
+        cover: "https://p1.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
     },
     {
         name: "櫻ト向日葵",
         artist: "狩野七夏",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744390",
-        cover: "https://p2.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
+        cover: "https://p1.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
     },
     {
         name: "刻ト詩",
         artist: "水谷瑠奈",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744389",
-        cover: "https://p2.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
+        cover: "https://p1.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
     },
     {
         name: "幾望―既望―希望",
         artist: "Viewtorino",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2077744391",
-        cover: "https://p2.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
+        cover: "https://p1.music.126.net/fG4yXQAjuXfVIoER7oBuzw==/109951168879035903.jpg"
     },
     {
         name: "在りし日のために",
         artist: "monet",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399367390",
-        cover: "https://p2.music.126.net/kdIuvWZBQg93OTeV7b1YdA==/109951166926766723.jpg"
+        cover: "https://p1.music.126.net/kdIuvWZBQg93OTeV7b1YdA==/109951166926766723.jpg"
     },
     {
         name: "DearMyFriend",
         artist: "はな",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399366433",
-        cover: "https://p2.music.126.net/kdIuvWZBQg93OTeV7b1YdA==/109951166926766723.jpg"
+        cover: "https://p1.music.126.net/kdIuvWZBQg93OTeV7b1YdA==/109951166926766723.jpg"
     },
     {
         name: "天球の下の奇蹟",
         artist: "はな",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399367389",
-        cover: "https://p2.music.126.net/kdIuvWZBQg93OTeV7b1YdA==/109951166926766723.jpg"
+        cover: "https://p1.music.126.net/kdIuvWZBQg93OTeV7b1YdA==/109951166926766723.jpg"
     },
     {
         name: "ZYPRESSENの花束",
         artist: "monet",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399366432",
-        cover: "https://p2.music.126.net/kdIuvWZBQg93OTeV7b1YdA==/109951166926766723.jpg"
+        cover: "https://p1.music.126.net/kdIuvWZBQg93OTeV7b1YdA==/109951166926766723.jpg"
     },
     {
         name: "ヴァンパイア (feat. 初音ミク)",
         artist: "DECO*27 / 初音ミク",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=1966113455",
-        cover: "https://p2.music.126.net/kROKJX7QtCCcEr1jYhqkoA==/109951168428844499.jpg"
+        cover: "https://p1.music.126.net/kROKJX7QtCCcEr1jYhqkoA==/109951168428844499.jpg"
     },
     {
         name: "風の筆射す春日花抄",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399367386",
-        cover: "https://p2.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
+        cover: "https://p1.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
     },
     {
         name: "ありがとう在りし日",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399366429",
-        cover: "https://p2.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
+        cover: "https://p1.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
     },
     {
         name: "天球の奇蹟",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399366428",
-        cover: "https://p2.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
+        cover: "https://p1.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
     },
     {
         name: "夜空は奏でるだろう",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399366427",
-        cover: "https://p2.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
+        cover: "https://p1.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
     },
     {
         name: "心象の中の光",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399367381",
-        cover: "https://p2.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
+        cover: "https://p1.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
     },
     {
         name: "ZYPRESSENは櫻に変わる",
         artist: "松本文紀 / ピクセルビー",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399367375",
-        cover: "https://p2.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
+        cover: "https://p1.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
     },
     {
         name: "夢の歩みを見上げて",
         artist: "松本文紀",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399367379",
-        cover: "https://p2.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
+        cover: "https://p1.music.126.net/jnqRJD_lbRpJCvHFQQc8UQ==/109951166783005206.jpg"
     },
     {
         name: "心模型",
@@ -738,6 +883,43 @@ export const mySecretPlaylist = [
         artist: "はな",
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=399367387",
         cover: "https://p2.music.126.net/kdIuvWZBQg93OTeV7b1YdA==/109951166926766723.jpg"
+    },
+    //Local
+    {
+        name: 'Irony',
+        artist: 'ClariS',
+        url: '/audio/Irony.mp3',
+        cover: '/assets/desktop-banner/MASHIRO_e102b.webp'
+    },
+    {
+        name: 'LEVEL5-JudgeLine',
+        artist: 'fripSide',
+        url: '/audio/LEVEL5-JudgeLine.mp3',
+        cover: '/assets/desktop-banner/MASHIRO_e102b.webp'
+    },
+    {
+        name: 'Spiral',
+        artist: 'LONGMAN',
+        url: '/audio/Spiral.aac',
+        cover: '/assets/desktop-banner/MASHIRO_e102b.webp'
+    },
+    {
+        name: 'THERE IS A REASON-鈴木このみ',
+        artist: '鈴木このみ',
+        url: '/audio/THERE IS A REASON-鈴木このみ.mp3',
+        cover: '/assets/desktop-banner/MASHIRO_e102b.webp'
+    },
+    {
+        name: '君の知らない物語',
+        artist: 'supercell',
+        url: '/audio/君の知らない物語.mp3',
+        cover: '/assets/desktop-banner/MASHIRO_e102b.webp'
+    },
+    {
+        name: '恋のEveryDay☆HappyDay  (Full Size)-竹達彩奈',
+        artist: '竹達彩奈',
+        url: '/audio/恋のEveryDay☆HappyDay  (Full Size)-竹達彩奈.mp3',
+        cover: '/assets/desktop-banner/MASHIRO_e102b.webp'
     },
 
 ];

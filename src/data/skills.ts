@@ -27,8 +27,8 @@ export const skillsData: Skill[] = [
         category: "backend", // 如果没有 gameDev 分类，暂时放在 backend 或 other
         level: "intermediate",
         experience: {
-            years: 1,
-            months: 5
+            years: 0,
+            months: 9
         },
         color: "#00599C"
     },
@@ -43,7 +43,7 @@ export const skillsData: Skill[] = [
         level: "intermediate",
         experience: {
             years: 0,
-            months: 6
+            months: 4
         },
         color: "#E11352" // Rider 的主题红
     },
@@ -58,7 +58,7 @@ export const skillsData: Skill[] = [
         level: "intermediate",
         experience: {
             years: 0,
-            months: 8
+            months: 6
         },
         projects: ["escape-game-demo"], // 关联主人正在做的小 demo
         color: "#0E1128"
