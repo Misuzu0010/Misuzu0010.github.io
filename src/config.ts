@@ -34,7 +34,7 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 240, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 360, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
@@ -163,16 +163,15 @@ export const siteConfig: SiteConfig = {
 			enable: false, // 启用图片API
 			url: "http://domain.com/api_v2.php?format=text&count=4", // API地址，返回每行一个图片链接的文本
 		},
-		// 这里需要使用PicFlow API的Text返回类型,所以我们需要format=text参数
+		// 这里需要使用PicFlow API的Text返回类型,所以我们需要format=txt参数
 		// 项目地址:https://github.com/matsuzaka-yuki/PicFlow-API
 		// 请自行搭建API
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "ようこそ！ここはインターネットの果てだよ！", // 主页横幅主标题
+			title: "ようこそ！ここはインターネットの果てだよ！ゆっくり休んでね", // 主页横幅主标题
 
 			subtitle: [
-				"世の中の美少女はすべで俺の妻だった！！！！！",
 				"繰り返す、繰り返す、悲劇をいくつ超えても",
 			],
 			typewriter: {
@@ -366,7 +365,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/ねり.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Misuzu0010",
-	bio: "我愿披荆斩棘，追求心中的理想。",
+	bio: "希望能在游戏中找到自己的一片净土",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -428,7 +427,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	system: "twikoo", // 评论系统选择: "twikoo" | "giscus"
 	twikoo: {
 		envId: "https://twikoo.vercel.app",
@@ -623,8 +622,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 };
 
 export const sakuraConfig: SakuraConfig = {
-	enable: true, // 默认关闭樱花特效
-	sakuraNum: 21, // 樱花数量
+	enable: false, // 默认关闭樱花特效
+	sakuraNum: 30, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
 		min: 0.5, // 樱花最小尺寸倍数
@@ -659,7 +658,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "哟，您诸位好啊", // 欢迎词
 		touch: [
 			"What are you doing?",
 			"Stop touching me!",

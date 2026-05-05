@@ -62,7 +62,7 @@ export const zh_CN: Translation = {
 
 	// 番剧页面
 	[Key.animeTitle]: "我的 ACG 记录",
-    [Key.animeSubtitle]: "记录我的二次元与游戏之旅",
+    [Key.animeSubtitle]: "记录我的二次元与游戏之旅,可查成分。（系列作品默认全部观看，链接指向的是第一部系列作品）",
     // 【修改点 1】把“进行中”改成涵盖游戏和番剧的词
     [Key.animeStatusWatching]: "游玩/追番中", 
     // 【修改点 2】底层用 completed，表层显示“已通关/完结”
