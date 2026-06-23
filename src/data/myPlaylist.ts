@@ -152,60 +152,7 @@ export const mySecretPlaylist = [
         url: "https://meting.mysqil.com/api?server=netease&type=url&id=2689981077",
         cover: "https://p1.music.126.net/W3r5r1irzLc4n1ipfqoXQQ==/109951170674320010.jpg"
     },
-    {
-        name: "碧天伴走",
-        artist: "MyGO!!!!!",
-        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2074119582",
-        cover: "https://p1.music.126.net/rLZhOb-9mSTh_F_Ox0je8w==/109951170225583931.jpg"
-    },
-    {
-        name: "焚音打",
-        artist: "MyGO!!!!!",
-        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2646952666",
-        cover: "https://p1.music.126.net/PrXtvzFdLofin2N29uoCSQ==/109951170155502529.jpg"
-    },
-    {
-        name: "詩超絆",
-        artist: "MyGO!!!!!",
-        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2097485076",
-        cover: "https://p1.music.126.net/_0rz5AVl1HMq0_FBnRHSbA==/109951170225711695.jpg"
-    },
-    {
-        name: "歌いましょう鳴らしましょう",
-        artist: "MyGO!!!!!",
-        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2097485073",
-        cover: "https://p1.music.126.net/_0rz5AVl1HMq0_FBnRHSbA==/109951170225711695.jpg"
-    },
-    {
-        name: "迷路日々",
-        artist: "MyGO!!!!!",
-        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2097486091",
-        cover: "https://p1.music.126.net/_0rz5AVl1HMq0_FBnRHSbA==/109951170225711695.jpg"
-    },
-    {
-        name: "猛独が襲う (Cover)",
-        artist: "MyGO!!!!!",
-        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2164260965",
-        cover: "https://p1.music.126.net/o6GngCu85HNylNb31hgKZA==/109951170225354997.jpg"
-    },
-    {
-        name: "影色舞",
-        artist: "MyGO!!!!!",
-        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2097485072",
-        cover: "https://p1.music.126.net/_0rz5AVl1HMq0_FBnRHSbA==/109951170225711695.jpg"
-    },
-    {
-        name: "壱雫空",
-        artist: "MyGO!!!!!",
-        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2060086839",
-        cover: "https://p1.music.126.net/A8n94Pitm500xJDctblC9A==/109951170100039329.jpg"
-    },
-    {
-        name: "迷星叫",
-        artist: "MyGO!!!!!",
-        url: "https://meting.mysqil.com/api?server=netease&type=url&id=2097485069",
-        cover: "https://p1.music.126.net/_0rz5AVl1HMq0_FBnRHSbA==/109951170225711695.jpg"
-    },
+    
     {
         name: "Imprisoned XII",
         artist: "Ave Mujica",
